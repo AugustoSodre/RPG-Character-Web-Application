@@ -6,9 +6,9 @@ A web application for storing RPG Characters using PostgreSQL, Java Springboot, 
 Create a table called "rpg_characters" on Postgres using:
 (SQL Code)
 
-Make sure your postgres database is in port 5432;
+Make sure your postgres configurations are valid on .../resources/application.properties;
 
-Make sure your postgres username and password are valid;
+Build and run Application.java;
 
 Type on your browser "localhost://8000" and have fun storying your characters!
 ```
