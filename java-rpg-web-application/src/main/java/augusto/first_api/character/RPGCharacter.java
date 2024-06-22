@@ -36,40 +36,71 @@ public class RPGCharacter {
         char_is_dead = charIsDead;
     }
 
-        public RPGCharacter() {
+    public RPGCharacter() {
 
-        }
+    }
 
-    public Integer char_id() {
+    public Integer getChar_id() {
         return char_id;
     }
 
-    public Integer char_age() {
+    public void setChar_id(Integer char_id) {
+        this.char_id = char_id;
+    }
+
+    public Integer getChar_age() {
         return char_age;
     }
 
-    public String char_height() {
+    public void setChar_age(Integer char_age) {
+        this.char_age = char_age;
+    }
+
+    public String getChar_height() {
         return char_height;
     }
 
-    public String char_name() {
+    public void setChar_height(String char_height) {
+        this.char_height = char_height;
+    }
+
+    public String getChar_name() {
         return char_name;
     }
 
-    public String char_race() {
+    public void setChar_name(String char_name) {
+        this.char_name = char_name;
+    }
+
+    public String getChar_race() {
         return char_race;
     }
 
-    public String char_class() {
+    public void setChar_race(String char_race) {
+        this.char_race = char_race;
+    }
+
+    public String getChar_class() {
         return char_class;
     }
 
-    public String char_gender() {
+    public void setChar_class(String char_class) {
+        this.char_class = char_class;
+    }
+
+    public String getChar_gender() {
         return char_gender;
     }
 
-    public Boolean char_is_dead() {
+    public void setChar_gender(String char_gender) {
+        this.char_gender = char_gender;
+    }
+
+    public Boolean getChar_is_dead() {
         return char_is_dead;
     }
 
+    public void setChar_is_dead(Boolean char_is_dead) {
+        this.char_is_dead = char_is_dead;
+    }
 }

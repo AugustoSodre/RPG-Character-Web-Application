@@ -27,10 +27,10 @@ public class StartApplication implements CommandLineRunner {
                 "Male",
                 false
         );
-        characterRepository.save(character);
+        characterRepository.addCharacter(character);
 
         RPGCharacter character2 = new RPGCharacter(
-                4,
+                2,
                 20,
                 "1,90",
                 "Ferrari",
@@ -39,11 +39,9 @@ public class StartApplication implements CommandLineRunner {
                 "Male",
                 true
         );
-        characterRepository.save(character2);
+        characterRepository.addCharacter(character2);
 
-        for (RPGCharacter rpgCharacter : characterRepository.findAll()) {
-            System.out.println(rpgCharacter.char_id());
-        }
+        System.out.println(characterRepository.findAll());
 
 
     }
