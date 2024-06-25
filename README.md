@@ -12,3 +12,5 @@ Build and run Application.java;
 
 Type on your browser "localhost://8000" and have fun storying your characters!
 ```
+
+UNDER DEVELOPMENT!
